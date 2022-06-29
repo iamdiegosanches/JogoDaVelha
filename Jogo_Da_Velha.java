@@ -88,7 +88,7 @@ public class Jogo_Da_Velha {
 		char result = verificaVitoria();
 		
 		if(result == 'X' || result == 'O') {
-			System.out.println("\nO vencedor � : " + result);
+			System.out.println("\nO vencedor é : " + result);
 			gameOver = false;
 		} else if (contador == 9) {
 			System.out.println("\nDeu velha!");
@@ -107,10 +107,10 @@ public class Jogo_Da_Velha {
 			
 			System.out.println("\nVez do jogador " + jogador.pos);
 			
-			System.out.print("Escolha uma posi��o de 1-3 para linha: ");
+			System.out.print("Escolha uma posição de 1-3 para linha: ");
 			linha = scanner.nextInt();
 			scanner.nextLine();
-			System.out.print("Escolha uma posi��o de 1-3 para coluna: ");
+			System.out.print("Escolha uma posição de 1-3 para coluna: ");
 			coluna = scanner.nextInt();
 			scanner.nextLine();
 			
