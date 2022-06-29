@@ -11,10 +11,10 @@ jogador 1 ou jogador 2).
 
 • O construtor deve inicializar a grade como vazia.
 
-• Forne¸ca um método para exibir a grade.
+• Forneça um método para exibir a grade.
 
 • Permita dois jogadores humanos.
 
-• Forne¸ca um m´etodo para jogar o jogo; todo movimento deve ocorrer em uma casa vazia; depois
+• Forneçaa um método para jogar o jogo; todo movimento deve ocorrer em uma casa vazia; depois
 de cada movimento, determine se houve uma derrota ou um empate.
 
